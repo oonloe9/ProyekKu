@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".outlet1">
+
+    <ImageView
+        android:id="@+id/store1"
+        android:layout_width="349dp"
+        android:layout_height="302dp"
+        android:layout_gravity="center"
+        android:src="@drawable/store"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ImageView
+        android:id="@+id/gift1"
+        android:layout_width="68dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gift"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/calculator1"
+        android:layout_width="68dp"
+        android:layout_height="93dp"
+        android:layout_gravity="center"
+        android:src="@drawable/calculator"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <ImageView
+        android:id="@+id/coin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/coin"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <ImageView
+        android:id="@+id/level1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:src="@drawable/level"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
